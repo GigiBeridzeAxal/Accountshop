@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+   background-image: url(images/background.png);
+background-position: center;
+background-size: cover;
+
+
+
+
+}
+.delta{
+  color: #fff;
+  display: flex;
+  margin: 0 120px;
+  font-size: 25px;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+
+
+}
+
+.texts{
+    position: absolute;
+display: grid;
+align-items: center; 
+bottom: 40%; 
+ margin-left: 100px;
+ 
+
+
+
+
+}
+.texts .maint{
+  margin-top: 500px;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 100px;
+  
+
+
+   
+
+
+
+}
+.texts .launch{
+  padding-top: 10px;
+  font-size: 80px;
+  color: white;
+  font-weight: 600;
+
+
+
+}
+.texts .launch span{
+  color: rgb(239, 120, 120);
+
+
+}
+.count{
+  display: flex;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  
+
+
+
+}
+.count div span{
+  margin-left: 10%;
+  font-size: 20px;
+  
+
+
+}
+
+.count div p{
+  font-size: 70px;
+  margin-bottom: -5%;
+
+}
+
+.count div{
+    flex-basis: 100px;
+    
+
+   
+
+
+
+}
+.rocket{
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+ animation: rocket 4s linear infinite;
+
+
+}
+@keyframes rocket{
+  0%{
+    bottom: 0px;
+    opacity: 0;
+
+  }
+  100%{
+    bottom: 105%;
+    opacity: 1;
+
+
+  }
+ 
+
+
+}
